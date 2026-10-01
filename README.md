@@ -272,6 +272,7 @@ The Go Hub remains canonical.
   <a href="docs/architecture.md"><img src="https://img.shields.io/badge/docs-architecture-285c44" alt="Architecture docs" height="20" /></a>
   <a href="docs/protocol.md"><img src="https://img.shields.io/badge/docs-wire_specification-285c44" alt="Wire specification" height="20" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-285c44" alt="Contributions welcome" height="20" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="Apache License 2.0" height="20" /></a>
   <a href="SECURITY.md"><img src="https://img.shields.io/badge/security-guidance-4c7a9b" alt="Security guidance" height="20" /></a>
 </p>
 
@@ -282,4 +283,6 @@ The Go Hub remains canonical.
   <a href="SECURITY.md">Security</a>
 </p>
 
-No license file exists in the repository; no license or CI status is claimed.
+<p align="center">Licensed under the <a href="LICENSE">Apache License 2.0</a>.</p>
+
+No CI status is claimed.

@@ -9,5 +9,5 @@ Before proposing a change, run `make fmt`, `make check`, and `make -C sdk/c`.
 For networking/storage changes, run a real Hub/client smoke test with temporary
 ports and files and verify SIGTERM drains accepted records. Include relevant tests
 and describe validation in the merge request. Do not commit generated binaries,
-logs or benchmark output. There is currently no repository license file; clarify
-licensing with the repository owner before redistributing code.
+logs or benchmark output. This repository is licensed under the Apache License
+2.0; see [LICENSE](LICENSE).

@@ -110,4 +110,5 @@ no cancellation token or total operation deadline.
 `target/` is ignored. `Cargo.lock` is intentionally retained for reproducible
 repository builds/tests/examples. This does not pin dependency resolution for
 applications using the SDK as a dependency. No third-party dependencies are
-currently present. The repository has no license file; none is inferred here.
+currently present. The repository is licensed under Apache License 2.0; see
+[LICENSE](../../LICENSE).
