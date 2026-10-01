@@ -1,7 +1,7 @@
 # Binaries
 *.exe
-hub
-agent
+/hub
+/agent
 
 # Logs
 *.log
@@ -9,3 +9,9 @@ agent
 # OS generated files
 .DS_Store
 Thumbs.db
+
+/bin/
+
+/sdk/c/example
+
+/sdk/rust/target/

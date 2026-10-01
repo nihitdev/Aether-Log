@@ -1,0 +1,8 @@
+[package]
+name = "aether-log-client"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Synchronous standard-library client for Aether-Log protocol v1"
+
+[dependencies]
