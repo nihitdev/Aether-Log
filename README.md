@@ -1,7 +1,24 @@
 # Aether-Log
 ### A small, fast distributed log aggregation engine.
 
-![Go 1.24+](https://img.shields.io/badge/Go-1.24%2B-00ADD8?logo=go)
+[![Go 1.24+](https://img.shields.io/badge/Go-1.24%2B-00ADD8?logo=go&logoColor=white)](go.mod)
+[![Status: experimental](https://img.shields.io/badge/status-experimental-d6a343)](#limitations-and-roadmap)
+[![Protocol v1](https://img.shields.io/badge/protocol-v1-285c44)](docs/protocol.md)
+[![Transport: TCP](https://img.shields.io/badge/transport-TCP-4c7a9b)](docs/protocol.md)
+[![Core: standard libraries](https://img.shields.io/badge/core-standard_libraries-285c44)](docs/architecture.md)
+
+[![Go SDK](https://img.shields.io/badge/SDK-Go-00ADD8?logo=go&logoColor=white)](sdk/go/client.go)
+[![C SDK](https://img.shields.io/badge/SDK-C-555555?logo=c&logoColor=white)](sdk/c/aether.h)
+[![Rust SDK](https://img.shields.io/badge/SDK-Rust-b7410e?logo=rust&logoColor=white)](sdk/rust/README.md)
+[![Website: React](https://img.shields.io/badge/website-React-149eca?logo=react&logoColor=white)](site/README.md)
+[![Build: Vite](https://img.shields.io/badge/build-Vite-646CFF?logo=vite&logoColor=white)](site/vite.config.ts)
+[![Package manager: pnpm](https://img.shields.io/badge/package_manager-pnpm-F69220?logo=pnpm&logoColor=white)](site/package.json)
+
+[![Architecture docs](https://img.shields.io/badge/docs-architecture-285c44)](docs/architecture.md)
+[![Wire specification](https://img.shields.io/badge/docs-wire_specification-285c44)](docs/protocol.md)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-285c44)](CONTRIBUTING.md)
+[![Security guidance](https://img.shields.io/badge/security-guidance-4c7a9b)](SECURITY.md)
+[![GitHub repository](https://img.shields.io/badge/source-GitHub-181717?logo=github&logoColor=white)](https://github.com/nihitdev/Aether-Log)
 
 Aether-Log collects records over TCP and writes them to rotating local files.
 It is a compact distributed logging experiment with a Go Hub, a Go Agent,
