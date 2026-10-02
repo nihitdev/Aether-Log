@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/nihitdev/Aether-Log/internal/protocol"
+	"github.com/nihitdev/Aether-Log/internal/protocol"
 )
 
 type Config struct {

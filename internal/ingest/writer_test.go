@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/nihitdev/Aether-Log/pkg/metrics"
+	"github.com/nihitdev/Aether-Log/pkg/metrics"
 )
 
 func TestDrain(t *testing.T) {

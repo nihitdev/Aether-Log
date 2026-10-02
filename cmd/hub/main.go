@@ -16,10 +16,10 @@ import (
 	"syscall"
 	"time"
 
-	"gitlab.com/nihitdev/Aether-Log/internal/ingest"
-	"gitlab.com/nihitdev/Aether-Log/internal/protocol"
-	"gitlab.com/nihitdev/Aether-Log/pkg/metrics"
-	"gitlab.com/nihitdev/Aether-Log/pkg/storage"
+	"github.com/nihitdev/Aether-Log/internal/ingest"
+	"github.com/nihitdev/Aether-Log/internal/protocol"
+	"github.com/nihitdev/Aether-Log/pkg/metrics"
+	"github.com/nihitdev/Aether-Log/pkg/storage"
 )
 
 func main() {

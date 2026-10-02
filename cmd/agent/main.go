@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	client "gitlab.com/nihitdev/Aether-Log/sdk/go"
+	client "github.com/nihitdev/Aether-Log/sdk/go"
 )
 
 func main() {

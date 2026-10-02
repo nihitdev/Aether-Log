@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/nihitdev/Aether-Log/pkg/metrics"
+	"github.com/nihitdev/Aether-Log/pkg/metrics"
 )
 
 type Writer struct {

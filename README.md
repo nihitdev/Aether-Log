@@ -85,8 +85,8 @@ tail aether.log
 `make build` writes ignored binaries under `bin/`. Alternatively:
 
 ```sh
-go install gitlab.com/nihitdev/Aether-Log/cmd/hub@latest
-go install gitlab.com/nihitdev/Aether-Log/cmd/agent@latest
+go install github.com/nihitdev/Aether-Log/cmd/hub@latest
+go install github.com/nihitdev/Aether-Log/cmd/agent@latest
 ```
 
 Those install the repository revision available remotely; local work is built

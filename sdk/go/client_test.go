@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/nihitdev/Aether-Log/internal/protocol"
+	"github.com/nihitdev/Aether-Log/internal/protocol"
 )
 
 func TestSend(t *testing.T) {
